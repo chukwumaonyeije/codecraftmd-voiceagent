@@ -1,0 +1,24 @@
+{
+  "name": "codecraftmd-voiceagent",
+  "version": "1.0.0",
+  "description": "Voice-driven medical coding demo for Maternal-Fetal Medicine",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "medical-coding",
+    "voice-agent",
+    "mfm",
+    "ob-gyn"
+  ],
+  "author": "CodeCraftMD",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.20.1"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.7"
+  }
+}
